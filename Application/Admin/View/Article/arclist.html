@@ -32,8 +32,8 @@
                     <ul>
                         <li class="admin_bg4">{$vo.id}</li>
                         <li class="admin_bg4">{$vo.title}</li>
-                        <li class="admin_bg4">{$vo.keywords}</li>
-                        <li class="admin_bg4">{$vo.description}</li>
+                        <li class="admin_bg4"><notempty name="vo.keywords">{$vo.keywords}<else />-</notempty></li>
+                        <li class="admin_bg4"><notempty name="vo.description">{$vo.description}<else />-</notempty></li>
                         <li class="admin_bg4"><eq name="vo.status" value="0"><span class="green" style="border:none;">正常</span></eq><eq name="vo.status" value="1"><span class="red" style="border:none;">禁用</span></eq></li>
                         <li class="admin_bg4">{$vo.date|date="Y-m-d",###}</li>
                         <li class="admin_bg4">
