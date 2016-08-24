@@ -1,0 +1,30 @@
+[ 2016-07-21T08:04:27+08:00 ] 144.76.102.19 /index.php?m=area
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+ERR: 无法加载模块:Area
+
+[ 2016-07-21T08:04:43+08:00 ] 144.76.102.19 /index.php?m=bbs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+ERR: 无法加载模块:Bbs
+
+[ 2016-07-21T08:04:50+08:00 ] 144.76.102.19 /index.php?m=cms
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+ERR: 无法加载模块:Cms
+
+[ 2016-07-21T08:05:12+08:00 ] 144.76.102.19 /index.php?m=dianpu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+ERR: 无法加载模块:Dianpu
+
+[ 2016-07-21T08:05:31+08:00 ] 144.76.102.19 /index.php?m=o
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+ERR: 无法加载模块:O
+

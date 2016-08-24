@@ -1,0 +1,89 @@
+<div class="game_img">
+                <b>
+                    <img src="__IMAGES__/game1.jpg">
+                    比奇皇宫
+                </b>
+                <b>
+                    <img src="__IMAGES__/game2.jpg">
+                    苍月码头
+                </b>
+                <b>
+                    <img src="__IMAGES__/game3.jpg">
+                    白日门
+                </b>
+                <b style="margin-right:0;">
+                    <img src="__IMAGES__/game4.jpg">
+                    封魔城门
+                </b>
+            </div>
+        </div>
+        <div class="footer">
+            <p>抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活</p>
+            <p>经营许可证：苏ICP备16011318号-1 <span>苏州东游网络科技有限公司</span></p>
+        </div>
+        <div class="clear"></div>
+    </div>
+</body>
+
+<script type="text/javascript">
+$(function () {
+        num = $("#PicCont .Pic").size();
+        i = 0;
+        for (i = 0; i < num; i++) {
+            $("#PicNum").append("<div class='Text'></div>");
+        }
+        theInt = null;
+        $("#PicCont .Pic").eq(0).fadeIn(1000);
+        $("#PicNum .Text").eq(0).addClass("cur");
+        $("#PicNum .Text").each(function (i) {
+            $(this).click(function () {
+                HuanDeng(i);
+                $("#PicCont .Pic").fadeOut(1000);
+                $("#PicCont .Pic").eq(i).fadeIn(1000);
+                $("#PicNum .Text").removeClass("cur");
+                $(this).addClass("cur");
+            });
+        });
+        HuanDeng = function (p) {
+            clearInterval(theInt);
+            theInt = setInterval(function () {
+                p++;
+                if (p < num) {
+                    $("#PicCont .Pic").fadeOut(1000);
+                    $("#PicCont .Pic").eq(p).fadeIn(1000);
+                    $("#PicNum .Text").removeClass("cur");
+                    $("#PicNum .Text").eq(p).addClass("cur");
+                } else {
+                    p = 0
+                    $("#PicCont .Pic").fadeOut(1000);
+                    $("#PicCont .Pic").eq(p).fadeIn(1000);
+                    $("#PicNum .Text").removeClass("cur");
+                    $("#PicNum .Text").eq(0).addClass("cur");
+                }
+            }, 4000);
+        }
+        HuanDeng(0);
+    });
+
+    $(function(){
+        $.post('__URL__/get_article_list',{s:8},function(data){
+            console.log(data);
+            if(data.status==1){
+                $('.right_content1').html(data.list);
+            }
+
+        });
+
+        $('.user_pj').kxbdMarquee({
+            direction: 'up',
+            isEqual: false
+        });
+
+        $('.right_title').find('em').mouseover(function(){
+            var index = $(this).index();
+            $('div.pro_job').eq(--index).show().siblings('div.pro_job').hide();
+        });
+    });
+
+</script>
+</html>
