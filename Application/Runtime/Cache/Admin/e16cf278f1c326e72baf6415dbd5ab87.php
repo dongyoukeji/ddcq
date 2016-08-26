@@ -53,8 +53,13 @@
 <div class="admin_r_all">
     <div class="admin_bg_all">
         <div class="admin_bg_t">
+<<<<<<< HEAD
             <a href="/duduchuanqi/Admin/Article/index?cid=<?php echo ($_GET['cid']); echo ($info["column_id"]); ?>">返回列表</a>
             <a href="/duduchuanqi/Admin/Article/add?aid=1" id="admin_bg_t_x">文档添加</a>
+=======
+            <a href="/Admin/Article/index?cid=<?php echo ($_GET['cid']); echo ($info["column_id"]); ?>">返回列表</a>
+            <a href="/Admin/Article/add?cid=3" id="admin_bg_t_x">文档添加</a>
+>>>>>>> cf6455b16db4ccf3bfea7797c9a2b6447ac00e29
         </div>
         <form action="/duduchuanqi/Admin/Article/addhandler" method="post">
             <div class="admin_bg_fb">
