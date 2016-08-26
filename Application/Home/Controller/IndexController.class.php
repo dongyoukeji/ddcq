@@ -33,6 +33,19 @@ class IndexController extends BaseController {
         $this->ajaxReturn(array('status'=>1,'list'=>$list));
     }
     /**
+     * [get_news_list 获取公告地址]
+     * @param  integer $len      [description]
+     * @param  string  $callback [description]
+     * @return [type]            [description]
+     */
+    public function get_news_list($len=5,$callback=''){
+        $map['status']=0;
+        $map['column_id']=3;
+    	$list = M('article')->field('id,title,date')->where($map)->order('date desc')->limit($s)->select();
+    	$callback = $callback?$callback:'CALLBACK';
+    	echo $callback."(".json_encode($list).")";
+    }
+    /**
      * [get_detals 获取公告详情]
      * @param  integer $id [公告id]
      * @return [type]      [description]
