@@ -1,19 +1,27 @@
 <include file="Common:header"/>
 		<div class="main">
 			<div class="main_left notice-list">
-				<div class="right_title">
+				<div class="right_title" style="margin-top: -15px;">
 					<b>DUDU公告</b>
 				</div>
 				<div class="right_content">
-					<ul>
+					<ul style="font-size: 16px;">
 						<volist name="list" id="vo">
 						<li>
-							<span>[{$vo.date}]</span>
+							<span>[{$vo.date|date="Y-m-d",###}]</span>
 							【公告】
 							<a href="{:U('index/notice?id='.$vo['id'])}" class="author">{$vo.title}</a>
 						</li>
 					</volist>	
 					</ul>
+					<style type="text/css">
+						.page{
+							position: absolute;
+							bottom: 0px;
+							right: 0px;
+							color: #dab377;
+						}
+					</style>
 					<div class="page">
 						{$page}
 					</div>

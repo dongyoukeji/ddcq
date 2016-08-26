@@ -5,13 +5,13 @@
 <title>阳澄湖大螃蟹后台</title>
 <meta content="关键词" name="Keywords">
 <meta content="描述" name="Description">
-<link rel="stylesheet" type="text/css" href="/Public/Admin/css/admin_all.css">
-<link type="text/css" href="/Public/Plug/layer-v2.2/layer/skin/layer.css" rel="stylesheet" />
-<script type="text/javascript" src="/Public/Admin/js/jquery-2.2.1.min.js"></script>
-<script type="text/javascript" src="/Public/Admin/js/jquery.form.js"></script>
-<script type="text/javascript" src="/Public/Plug/layer-v2.2/layer/layer.js"></script>
-<script src="/Public/Plug/jquery.validate/jquery.validate.js" type="text/javascript"></script>
-<link href="/Public/Plug/jquery.validate/jquery.validate.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="/duduchuanqi/Public/Admin/css/admin_all.css">
+<link type="text/css" href="/duduchuanqi/Public/Plug/layer-v2.2/layer/skin/layer.css" rel="stylesheet" />
+<script type="text/javascript" src="/duduchuanqi/Public/Admin/js/jquery-2.2.1.min.js"></script>
+<script type="text/javascript" src="/duduchuanqi/Public/Admin/js/jquery.form.js"></script>
+<script type="text/javascript" src="/duduchuanqi/Public/Plug/layer-v2.2/layer/layer.js"></script>
+<script src="/duduchuanqi/Public/Plug/jquery.validate/jquery.validate.js" type="text/javascript"></script>
+<link href="/duduchuanqi/Public/Plug/jquery.validate/jquery.validate.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div class="admin_all">
@@ -24,12 +24,12 @@
     </span>
     <div>
         <i>BASIC DATA</i>
-        <?php if(is_array($nav)): $i = 0; $__LIST__ = $nav;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; if(($vo["contr_name"]) != "Admin"): ?><a href="<?php echo ($vo["url"]); ?>" <?php if((CONTROLLER_NAME) == $vo["contr_name"]): ?>id="admin_dhxz"<?php endif; ?>><?php echo ($vo["name"]); ?></a><?php endif; endforeach; endif; else: echo "" ;endif; ?>
+        <?php if(is_array($nav)): $i = 0; $__LIST__ = $nav;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; if(($vo["contr_name"]) != "Admin"): ?><a href="/duduchuanqi<?php echo ($vo["url"]); ?>" <?php if((CONTROLLER_NAME) == $vo["contr_name"]): ?>id="admin_dhxz"<?php endif; ?>><?php echo ($vo["name"]); ?></a><?php endif; endforeach; endif; else: echo "" ;endif; ?>
         <i>ARTICLES DATA</i>
         <?php if(is_array($nav_column)): $i = 0; $__LIST__ = $nav_column;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$cl): $mod = ($i % 2 );++$i;?><a href="/Admin/Article/index?cid=<?php echo ($cl["id"]); ?>" <?php if(($cl["id"]) == $_GET['cid']): ?>id="admin_dhxz"<?php endif; ?> <?php if(($inIt) == $cl["id"]): ?>id="admin_dhxz"<?php endif; ?> ><?php echo ($cl["title"]); ?></a><?php endforeach; endif; else: echo "" ;endif; ?>
         <i>EXECUTION DATA</i>
-        <?php if(is_array($nav)): $i = 0; $__LIST__ = $nav;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; if(($vo["contr_name"]) == "Admin"): ?><a href="<?php echo ($vo["url"]); ?>" <?php if((CONTROLLER_NAME) == $vo["contr_name"]): ?>id="admin_dhxz"<?php endif; ?>><?php echo ($vo["name"]); ?></a><?php endif; endforeach; endif; else: echo "" ;endif; ?>
-        <!--<?php if(($gid) == "-1"): ?><a href="/Admin/Admin" <?php if((CONTROLLER_NAME) == "Admin"): ?>id="admin_dhxz"<?php endif; ?>>账号管理</a><?php endif; ?>-->
+        <?php if(is_array($nav)): $i = 0; $__LIST__ = $nav;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; if(($vo["contr_name"]) == "Admin"): ?><a href="/duduchuanqi<?php echo ($vo["url"]); ?>" <?php if((CONTROLLER_NAME) == $vo["contr_name"]): ?>id="admin_dhxz"<?php endif; ?>><?php echo ($vo["name"]); ?></a><?php endif; endforeach; endif; else: echo "" ;endif; ?>
+        <!--<?php if(($gid) == "-1"): ?><a href="/duduchuanqi/Admin/Admin" <?php if((CONTROLLER_NAME) == "Admin"): ?>id="admin_dhxz"<?php endif; ?>>账号管理</a><?php endif; ?>-->
     </div>
 </div>
 	<div class="admin_r">
@@ -39,24 +39,24 @@
             <strong><?php echo ($time); ?></strong>
         </span>
 <!-- JS上传 -->
-<link rel="stylesheet" href="/Public/Plug/chosen-master/public/chosen.css" />
-<link rel="stylesheet" href="/Public/Plug/Uploadify/uploadify.css" />
-<script type="text/javascript" src="/Public/Plug/chosen-master/public/chosen.jquery.min.js"></script>
-<script type="text/javascript" src="/Public/Plug/Uploadify/jquery.uploadify.min.js"></script>
+<link rel="stylesheet" href="/duduchuanqi/Public/Plug/chosen-master/public/chosen.css" />
+<link rel="stylesheet" href="/duduchuanqi/Public/Plug/Uploadify/uploadify.css" />
+<script type="text/javascript" src="/duduchuanqi/Public/Plug/chosen-master/public/chosen.jquery.min.js"></script>
+<script type="text/javascript" src="/duduchuanqi/Public/Plug/Uploadify/jquery.uploadify.min.js"></script>
 <style>
     .imageDiv{float: left; margin-right: 12px;}
     .imageDiv>img{float: left;}
     .imageDiv>.removeImage{margin: 4px 0px 0px -4px; cursor: pointer;}
 </style>
 <!-- JS上传end -->
-<script src="/Public/Plug/kindeditor-4.1.10/kindeditor-all-min.js"></script>
+<script src="/duduchuanqi/Public/Plug/kindeditor-4.1.10/kindeditor-all-min.js"></script>
 <div class="admin_r_all">
     <div class="admin_bg_all">
         <div class="admin_bg_t">
-            <a href="/Admin/Article/index?cid=<?php echo ($_GET['cid']); echo ($info["column_id"]); ?>">返回列表</a>
-            <a href="/Admin/Article/add?aid=1" id="admin_bg_t_x">文档添加</a>
+            <a href="/duduchuanqi/Admin/Article/index?cid=<?php echo ($_GET['cid']); echo ($info["column_id"]); ?>">返回列表</a>
+            <a href="/duduchuanqi/Admin/Article/add?aid=1" id="admin_bg_t_x">文档添加</a>
         </div>
-        <form action="/Admin/Article/addhandler" method="post">
+        <form action="/duduchuanqi/Admin/Article/addhandler" method="post">
             <div class="admin_bg_fb">
 	        	<span>
 	            	<em>标题</em>
@@ -93,7 +93,7 @@
 	            	<div>
                         <div style="float:left; margin-top:8px;"><input type="button" name="fileImg" id="fileImg" size="16" value="上传" class="table_btn"/></div>
                         <div style="float:left; margin-top:7px; cursor:pointer;font-size:14px;" onclick="imgView('master');return false;" id="img_b">查看</div>
-                        <div style="float:left; margin-left:10px; margin-top:8px;" id="img_c"><img src="/Public/Admin/images/ldx.png" style="cursor:pointer;" onclick="noMasterImg()" /></div>
+                        <div style="float:left; margin-left:10px; margin-top:8px;" id="img_c"><img src="/duduchuanqi/Public/Admin/images/ldx.png" style="cursor:pointer;" onclick="noMasterImg()" /></div>
                         <div style="clear:both;"></div>
                     </div>
 	            </span>
@@ -225,7 +225,7 @@
         fileTypeExts  	: '*.png;*.jpg;*.jpeg;*.gif;',
         buttonText	  	: '选择图片',
         buttonClass   	: 'upload_button',
-        swf           	: '/Public/Plug/Uploadify/uploadify.swf',
+        swf           	: '/duduchuanqi/Public/Plug/Uploadify/uploadify.swf',
         uploader      	: "<?php echo U('Uploadify/uploadImg');?>",
         multi         	: false,
         onUploadSuccess : function(file, data, response) {

@@ -1,0 +1,2358 @@
+[ 2016-08-24T13:03:39+08:00 ] ::1 /duduchuangqi/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002075s ]
+
+[ 2016-08-24T13:03:39+08:00 ] ::1 /duduchuangqi/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001589s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001357s ]
+
+[ 2016-08-24T13:03:47+08:00 ] ::1 /duduchuangqi/Admin/public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009987s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.007691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017855s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-08-24T13:04:22+08:00 ] ::1 /duduchuangqi/Admin/public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001564s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-08-24T13:07:09+08:00 ] ::1 /duduchuangqi/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+
+[ 2016-08-24T13:07:09+08:00 ] ::1 /duduchuangqi/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001298s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2016-08-24T13:07:15+08:00 ] ::1 /duduchuangqi/Admin/public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant intval - assumed 'intval' C:\xampp\htdocs\duduchuangqi\Application\Admin\Controller\PublicController.class.php 第 37 行.
+SQL: UPDATE `think_admin` SET `last_date`='1472015235',`last_ip`='0.0.0.0' WHERE `id` = 1 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: logintime C:\xampp\htdocs\duduchuangqi\Application\Admin\Controller\PublicController.class.php 第 58 行.
+NOTIC: [8] Undefined index: loginip C:\xampp\htdocs\duduchuangqi\Application\Admin\Controller\PublicController.class.php 第 59 行.
+
+[ 2016-08-24T13:07:15+08:00 ] ::1 /duduchuangqi/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001477s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0261s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `column_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_article` WHERE `column_id` = 3 ORDER BY date desc,id desc LIMIT 0,1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_column` WHERE ( fid=0 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined index: cid C:\xampp\htdocs\duduchuangqi\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 29 行.
+NOTIC: [8] Undefined variable: inIt C:\xampp\htdocs\duduchuangqi\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011265s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011320s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2016-08-24T13:07:50+08:00 ] ::1 /duduchuangqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuangqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0008s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuangqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuangqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuangqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016431s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000657s ]
+
+[ 2016-08-24T13:07:52+08:00 ] ::1 /duduchuangqi/Admin/Article/add?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001562s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuangqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant o - assumed 'o' C:\xampp\htdocs\duduchuangqi\Application\Admin\Controller\ArticleController.class.php 第 45 行.
+SQL: SELECT * FROM `think_column` WHERE `status` = 0  [ RunTime:0.0008s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_column` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000268s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+NOTIC: [8] Undefined variable: info C:\xampp\htdocs\duduchuangqi\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 56 行.
+NOTIC: [8] Undefined variable: info C:\xampp\htdocs\duduchuangqi\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 63 行.
+NOTIC: [8] Undefined variable: info C:\xampp\htdocs\duduchuangqi\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 69 行.
+NOTIC: [8] Undefined variable: info C:\xampp\htdocs\duduchuangqi\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 76 行.
+NOTIC: [8] Undefined variable: info C:\xampp\htdocs\duduchuangqi\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 77 行.
+NOTIC: [8] Undefined variable: info C:\xampp\htdocs\duduchuangqi\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 82 行.
+NOTIC: [8] Undefined variable: info C:\xampp\htdocs\duduchuangqi\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 87 行.
+NOTIC: [8] Undefined variable: info C:\xampp\htdocs\duduchuangqi\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 109 行.
+NOTIC: [8] Undefined variable: info C:\xampp\htdocs\duduchuangqi\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 122 行.
+NOTIC: [8] Undefined variable: info C:\xampp\htdocs\duduchuangqi\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 126 行.
+NOTIC: [8] Undefined variable: info C:\xampp\htdocs\duduchuangqi\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 131 行.
+NOTIC: [8] Undefined variable: info C:\xampp\htdocs\duduchuangqi\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 132 行.
+NOTIC: [8] Undefined variable: info C:\xampp\htdocs\duduchuangqi\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 133 行.
+NOTIC: [8] Undefined variable: info C:\xampp\htdocs\duduchuangqi\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001420s ]
+
+[ 2016-08-24T13:07:53+08:00 ] ::1 /duduchuangqi/Admin/Article/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001207s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuangqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 0 AND `status` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 0 AND `status` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+NOTIC: [8] Undefined index: cid C:\xampp\htdocs\duduchuangqi\Application\Runtime\Cache\Admin\e5a9ae2f1e083f359798491bd896097f.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2016-08-24T13:10:36+08:00 ] ::1 /duduchuangqi/Admin/Article/addhandler
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuangqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: attr C:\xampp\htdocs\duduchuangqi\Application\Admin\Controller\ArticleController.class.php 第 86 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuangqi\Application\Admin\Controller\BaseController.class.php 第 378 行.
+NOTIC: [8] Use of undefined constant htmlspecialchars - assumed 'htmlspecialchars' C:\xampp\htdocs\duduchuangqi\Application\Admin\Controller\ArticleController.class.php 第 87 行.
+NOTIC: [8] Undefined index: file C:\xampp\htdocs\duduchuangqi\Application\Admin\Controller\ArticleController.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0044s ]
+SQL: INSERT INTO `think_article` (`title`,`column_id`,`keywords`,`description`,`content`,`sort`,`status`,`image`,`id`,`com`,`new`,`head`,`top`,`img`,`hot`,`file`,`date`) VALUES ('嘟嘟传奇官方攻略','3','','','&lt;span id=&quot;__kindeditor_bookmark_start_0__&quot;&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	&lt;strong&gt;第一步：登录网站&lt;/strong&gt;&lt;a href=&quot;http://93w.com/news/read/id/4.html#&quot;&gt;&lt;/a&gt;选择用户中心，&lt;strong&gt;登录账号&lt;/strong&gt;。
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	&lt;strong&gt;第二步：进入会员中心-账号安全页面,最下方，&lt;/strong&gt;&lt;strong&gt;免费申请密保卡&lt;/strong&gt;。
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-align:center;background-color:#FFFFFF;&quot;&gt;
+	&lt;img src=&quot;http://93w.com/newa/20160407183324141.jpg&quot; alt=&quot;&quot; width=&quot;800&quot; height=&quot;480&quot; style=&quot;height:auto;&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	&lt;strong&gt;第三步：免费申请密保卡&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	领取密保卡前，请先绑定您的手机或邮箱，绑定成功后才可以正常领取
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-align:center;background-color:#FFFFFF;&quot;&gt;
+	&lt;img src=&quot;http://93w.com/newa/201604073333333.jpg&quot; alt=&quot;&quot; width=&quot;800&quot; height=&quot;480&quot; style=&quot;height:auto;&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	&lt;strong&gt;第四步：下载并绑定密保卡。&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	1、密保卡24小时内只能免费领取一次，3天后会自动失效，请尽快绑定。
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	2、领取密保卡后，请您务必扫描二维码将密保卡保存至手机，或下载密保卡存储至电脑，密保卡事关账号安全，请妥善保存。
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-align:center;background-color:#FFFFFF;&quot;&gt;
+	&lt;img src=&quot;http://93w.com/newa/20160407183444444.jpg&quot; alt=&quot;&quot; width=&quot;800&quot; height=&quot;480&quot; style=&quot;height:auto;&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	&lt;strong&gt;第五步：绑定密保卡&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	根据您下载的密保卡，输入序列号及动态位置对应的数字，即可完成绑定
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-align:center;background-color:#FFFFFF;&quot;&gt;
+	&lt;img src=&quot;http://93w.com/newa/2016040718335555555.jpg&quot; alt=&quot;&quot; width=&quot;800&quot; height=&quot;480&quot; style=&quot;height:auto;&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	&lt;strong&gt;第六步：绑定成功&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	绑定成功后，根据流程提示，您也可以对密保卡进行解绑及换卡操作。
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-align:center;background-color:#FFFFFF;&quot;&gt;
+	&lt;img src=&quot;http://93w.com/newa/20160407666666.jpg&quot; alt=&quot;&quot; width=&quot;803&quot; height=&quot;480&quot; style=&quot;height:auto;&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	&lt;strong&gt;第七步：登陆游戏验证密保卡&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	绑定密保卡后，账号登录游戏，则需要输入对应的密保卡坐标数字，输入正确后，才可登陆游戏。
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-align:center;background-color:#FFFFFF;&quot;&gt;
+	&lt;img src=&quot;http://93w.com/newa/201604777777.jpg&quot; alt=&quot;&quot; width=&quot;800&quot; height=&quot;480&quot; style=&quot;height:auto;&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	&lt;strong&gt;第八步：密保卡找回&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	登陆网站或者解绑/更改密保卡时，如果忘记绑定的密保卡，可以通过绑定手机/绑定邮箱找回已经绑定的密保卡。
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-align:center;background-color:#FFFFFF;&quot;&gt;
+	&lt;img src=&quot;http://93w.com/newa/20160488888.png&quot; alt=&quot;&quot; width=&quot;801&quot; height=&quot;537&quot; style=&quot;height:auto;&quot; /&gt;
+&lt;/p&gt;
+&lt;/span&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:16px;&quot;&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;span style=&quot;color:#333333;font-family:Arial, &amp;quot;line-height:26px;font-size:16px;background-color:#FFFFFF;&quot;&gt;
+&lt;div style=&quot;margin:0px;padding:0px;text-align:center;&quot;&gt;
+	&lt;span style=&quot;line-height:1.5;&quot;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/span&gt;&lt;span style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;line-height:26px;background-color:#FFFFFF;&quot;&gt;&lt;/span&gt;','100','0','','0','0','0','0','0','0','0','','1472015436') [ RunTime:0.0013s ]
+
+[ 2016-08-24T13:10:38+08:00 ] ::1 /duduchuangqi/Admin/Article/index/cid/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003032s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuangqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuangqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuangqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuangqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000358s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.235522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.235595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001148s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001215s ]
+
+[ 2016-08-24T13:16:54+08:00 ] ::1 /duduchuanqi/Admin/Article/index/cid/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001605s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2016-08-24T13:16:56+08:00 ] ::1 /duduchuanqi/Admin/Article/add?aid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001586s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant o - assumed 'o' C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 45 行.
+SQL: SELECT * FROM `think_column` WHERE `status` = 0  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `think_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_column` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+NOTIC: [8] Undefined index: cid C:\xampp\htdocs\duduchuanqi\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 29 行.
+NOTIC: [8] Undefined index: cid C:\xampp\htdocs\duduchuanqi\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 56 行.
+NOTIC: [8] Undefined index: cid C:\xampp\htdocs\duduchuanqi\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 69 行.
+NOTIC: [8] Undefined index: tid C:\xampp\htdocs\duduchuanqi\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 76 行.
+NOTIC: [8] Undefined index: tid C:\xampp\htdocs\duduchuanqi\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 77 行.
+NOTIC: [8] Undefined index: cid C:\xampp\htdocs\duduchuanqi\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001492s ]
+
+[ 2016-08-24T13:16:57+08:00 ] ::1 /duduchuanqi/Admin/Article/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001578s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 0 AND `status` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 0 AND `status` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+NOTIC: [8] Undefined index: cid C:\xampp\htdocs\duduchuanqi\Application\Runtime\Cache\Admin\e5a9ae2f1e083f359798491bd896097f.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015703s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2016-08-24T13:17:32+08:00 ] ::1 /duduchuanqi/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001697s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `column_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_article` WHERE `column_id` = 3 ORDER BY date desc,id desc LIMIT 0,1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_column` WHERE ( fid=0 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Undefined index: cid C:\xampp\htdocs\duduchuanqi\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 29 行.
+NOTIC: [8] Undefined variable: inIt C:\xampp\htdocs\duduchuanqi\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011653s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2016-08-24T13:17:41+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0009s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000829s ]
+
+[ 2016-08-24T13:17:54+08:00 ] ::1 /duduchuanqi/Admin/Article/add?aid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant o - assumed 'o' C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 45 行.
+SQL: SELECT * FROM `think_column` WHERE `status` = 0  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `think_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_column` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+NOTIC: [8] Undefined index: cid C:\xampp\htdocs\duduchuanqi\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 29 行.
+NOTIC: [8] Undefined index: cid C:\xampp\htdocs\duduchuanqi\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 56 行.
+NOTIC: [8] Undefined index: cid C:\xampp\htdocs\duduchuanqi\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 69 行.
+NOTIC: [8] Undefined index: tid C:\xampp\htdocs\duduchuanqi\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 76 行.
+NOTIC: [8] Undefined index: tid C:\xampp\htdocs\duduchuanqi\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 77 行.
+NOTIC: [8] Undefined index: cid C:\xampp\htdocs\duduchuanqi\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000934s ]
+
+[ 2016-08-24T13:17:55+08:00 ] ::1 /duduchuanqi/Admin/Article/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001345s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002280s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 0 AND `status` = 0  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 0 AND `status` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+NOTIC: [8] Undefined index: cid C:\xampp\htdocs\duduchuanqi\Application\Runtime\Cache\Admin\e5a9ae2f1e083f359798491bd896097f.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015081s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2016-08-24T13:19:03+08:00 ] ::1 /duduchuanqi/Admin/Article/addhandler
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001867s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: attr C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 86 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\BaseController.class.php 第 378 行.
+NOTIC: [8] Use of undefined constant htmlspecialchars - assumed 'htmlspecialchars' C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 87 行.
+NOTIC: [8] Undefined index: file C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0025s ]
+SQL: UPDATE `think_article` SET `title`='嘟嘟传奇 -- 账号保护',`column_id`='3',`keywords`='',`description`='',`content`='&lt;span id=&quot;__kindeditor_bookmark_start_0__&quot;&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	&lt;strong&gt;第一步：登录网站&lt;/strong&gt;&lt;a href=&quot;http://93w.com/news/read/id/4.html#&quot;&gt;&lt;/a&gt;选择用户中心，&lt;strong&gt;登录账号&lt;/strong&gt;。
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	&lt;strong&gt;第二步：进入会员中心-账号安全页面,最下方，&lt;/strong&gt;&lt;strong&gt;免费申请密保卡&lt;/strong&gt;。
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-align:center;background-color:#FFFFFF;&quot;&gt;
+	&lt;img src=&quot;http://93w.com/newa/20160407183324141.jpg&quot; alt=&quot;&quot; width=&quot;800&quot; height=&quot;480&quot; style=&quot;height:auto;&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	&lt;strong&gt;第三步：免费申请密保卡&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	领取密保卡前，请先绑定您的手机或邮箱，绑定成功后才可以正常领取
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-align:center;background-color:#FFFFFF;&quot;&gt;
+	&lt;img src=&quot;http://93w.com/newa/201604073333333.jpg&quot; alt=&quot;&quot; width=&quot;800&quot; height=&quot;480&quot; style=&quot;height:auto;&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	&lt;strong&gt;第四步：下载并绑定密保卡。&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	1、密保卡24小时内只能免费领取一次，3天后会自动失效，请尽快绑定。
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	2、领取密保卡后，请您务必扫描二维码将密保卡保存至手机，或下载密保卡存储至电脑，密保卡事关账号安全，请妥善保存。
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-align:center;background-color:#FFFFFF;&quot;&gt;
+	&lt;img src=&quot;http://93w.com/newa/20160407183444444.jpg&quot; alt=&quot;&quot; width=&quot;800&quot; height=&quot;480&quot; style=&quot;height:auto;&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	&lt;strong&gt;第五步：绑定密保卡&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	根据您下载的密保卡，输入序列号及动态位置对应的数字，即可完成绑定
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-align:center;background-color:#FFFFFF;&quot;&gt;
+	&lt;img src=&quot;http://93w.com/newa/2016040718335555555.jpg&quot; alt=&quot;&quot; width=&quot;800&quot; height=&quot;480&quot; style=&quot;height:auto;&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	&lt;strong&gt;第六步：绑定成功&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	绑定成功后，根据流程提示，您也可以对密保卡进行解绑及换卡操作。
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-align:center;background-color:#FFFFFF;&quot;&gt;
+	&lt;img src=&quot;http://93w.com/newa/20160407666666.jpg&quot; alt=&quot;&quot; width=&quot;803&quot; height=&quot;480&quot; style=&quot;height:auto;&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	&lt;strong&gt;第七步：登陆游戏验证密保卡&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	绑定密保卡后，账号登录游戏，则需要输入对应的密保卡坐标数字，输入正确后，才可登陆游戏。
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-align:center;background-color:#FFFFFF;&quot;&gt;
+	&lt;img src=&quot;http://93w.com/newa/201604777777.jpg&quot; alt=&quot;&quot; width=&quot;800&quot; height=&quot;480&quot; style=&quot;height:auto;&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	&lt;strong&gt;第八步：密保卡找回&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	登陆网站或者解绑/更改密保卡时，如果忘记绑定的密保卡，可以通过绑定手机/绑定邮箱找回已经绑定的密保卡。
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-align:center;background-color:#FFFFFF;&quot;&gt;
+	&lt;img src=&quot;http://93w.com/newa/20160488888.png&quot; alt=&quot;&quot; width=&quot;801&quot; height=&quot;537&quot; style=&quot;height:auto;&quot; /&gt;
+&lt;/p&gt;
+&lt;/span&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;text-indent:21pt;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:16px;&quot;&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;span style=&quot;color:#333333;font-family:Arial, &amp;quot;line-height:26px;font-size:16px;background-color:#FFFFFF;&quot;&gt;
+&lt;div style=&quot;margin:0px;padding:0px;text-align:center;&quot;&gt;
+	&lt;span style=&quot;line-height:1.5;&quot;&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/span&gt;&lt;span style=&quot;color:#333333;font-family:Arial, &amp;quot;font-size:14px;line-height:26px;background-color:#FFFFFF;&quot;&gt;&lt;/span&gt;',`sort`='100',`status`='0',`image`='',`com`='0',`new`='0',`head`='0',`top`='0',`img`='0',`hot`='0',`file`='',`time`='1472015943' WHERE `id` = 1 [ RunTime:0.0007s ]
+
+[ 2016-08-24T13:19:06+08:00 ] ::1 /duduchuanqi/Admin/Article/index/cid/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001601s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0081s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000742s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000808s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2016-08-24T13:19:17+08:00 ] ::1 /duduchuanqi/Admin/Article/add?aid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001465s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant o - assumed 'o' C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 45 行.
+SQL: SELECT * FROM `think_column` WHERE `status` = 0  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_column` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000305s ]
+NOTIC: [8] Undefined index: cid C:\xampp\htdocs\duduchuanqi\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 29 行.
+NOTIC: [8] Undefined index: cid C:\xampp\htdocs\duduchuanqi\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 56 行.
+NOTIC: [8] Undefined index: cid C:\xampp\htdocs\duduchuanqi\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 69 行.
+NOTIC: [8] Undefined index: tid C:\xampp\htdocs\duduchuanqi\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 76 行.
+NOTIC: [8] Undefined index: tid C:\xampp\htdocs\duduchuanqi\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 77 行.
+NOTIC: [8] Undefined index: cid C:\xampp\htdocs\duduchuanqi\Application\Runtime\Cache\Admin\e16cf278f1c326e72baf6415dbd5ab87.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001605s ]
+
+[ 2016-08-24T13:19:17+08:00 ] ::1 /duduchuanqi/Admin/Article/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 0 AND `status` = 0  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 0 AND `status` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+NOTIC: [8] Undefined index: cid C:\xampp\htdocs\duduchuanqi\Application\Runtime\Cache\Admin\e5a9ae2f1e083f359798491bd896097f.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2016-08-24T13:35:26+08:00 ] ::1 /duduchuanqi/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001924s ]
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `column_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_article` WHERE `column_id` = 3 ORDER BY date desc,id desc LIMIT 0,1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_column` WHERE ( fid=0 ) LIMIT 1   [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined index: cid C:\xampp\htdocs\duduchuanqi\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 29 行.
+NOTIC: [8] Undefined variable: inIt C:\xampp\htdocs\duduchuanqi\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001472s ]
+
+[ 2016-08-24T13:35:41+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001156s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002080s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.1818s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0051s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000961s ]
+
+[ 2016-08-24T13:35:44+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002049s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2016-08-24T13:35:45+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002246s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016576s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000815s ]
+
+[ 2016-08-24T13:35:45+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001457s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002552s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000803s ]
+
+[ 2016-08-24T13:35:46+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001623s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2016-08-24T13:35:46+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001577s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2016-08-24T13:35:48+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001917s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000317s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2016-08-24T13:35:48+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002197s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000952s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001006s ]
+
+[ 2016-08-24T13:35:49+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001685s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.2783s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0109s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0012s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0181s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001022s ]
+
+[ 2016-08-24T13:35:49+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001989s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003065s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.2094s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0558s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0344s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0008s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0982s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0154s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002195s ]
+
+[ 2016-08-24T13:35:49+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001915s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003017s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000855s ]
+
+[ 2016-08-24T13:35:49+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001825s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017221s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2016-08-24T13:35:49+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005867s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2016-08-24T13:35:49+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006491s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0014s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2016-08-24T13:35:49+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2016-08-24T13:35:50+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007881s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001818s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000499s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000568s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2016-08-24T13:35:50+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001218s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2016-08-24T13:35:50+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001497s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2016-08-24T13:35:50+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001973s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2016-08-24T13:35:50+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001771s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016431s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2016-08-24T13:35:50+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001662s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000705s ]
+
+[ 2016-08-24T13:35:50+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2016-08-24T13:35:50+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.034513s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035345s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015087s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2016-08-24T13:35:50+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000554s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001653s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000797s ]
+
+[ 2016-08-24T13:35:50+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2016-08-24T13:35:50+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002308s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.012448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015025s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000347s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000409s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2016-08-24T13:35:50+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000707s ]
+
+[ 2016-08-24T13:35:50+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000691s ]
+
+[ 2016-08-24T13:35:50+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004979s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2016-08-24T13:35:50+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2016-08-24T13:35:50+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001592s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2016-08-24T13:35:50+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.045785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.046734s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014962s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2016-08-24T13:35:50+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004627s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2016-08-24T13:35:50+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2016-08-24T13:35:50+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001298s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002650s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015654s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2016-08-24T13:35:50+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006804s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2016-08-24T13:35:51+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2016-08-24T13:35:51+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.059473s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2016-08-24T13:35:51+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001740s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2016-08-24T13:35:51+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025391s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025946s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2016-08-24T13:35:51+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000680s ]
+
+[ 2016-08-24T13:35:51+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014638s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000882s ]
+
+[ 2016-08-24T13:35:51+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001664s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0067s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0008s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001641s ]
+
+[ 2016-08-24T13:40:24+08:00 ] ::1 /duduchuanqi/Admin/Article/index?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001618s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::del() should be compatible with Admin\Controller\BaseController::del($id = 0) C:\xampp\htdocs\duduchuanqi\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_model` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `think_model` WHERE ( fid=0 and "show"=0 and status=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `think_column` WHERE `status` = 0 AND `type` < 3 ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`fid` FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `fid` = 3 AND `status` = 0  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`fid`,`title` FROM `think_column` WHERE `id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Tool\Category::getChildrens(), called in C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php on line 114 and defined C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 108 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\duduchuanqi\Application\Tool\Category.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_article` WHERE `title` LIKE '%%' AND `column_id` = 3 LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+

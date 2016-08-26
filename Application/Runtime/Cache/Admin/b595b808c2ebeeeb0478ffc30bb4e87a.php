@@ -5,13 +5,13 @@
 <title>阳澄湖大螃蟹后台</title>
 <meta content="关键词" name="Keywords">
 <meta content="描述" name="Description">
-<link rel="stylesheet" type="text/css" href="/Public/Admin/css/admin_all.css">
-<link type="text/css" href="/Public/Plug/layer-v2.2/layer/skin/layer.css" rel="stylesheet" />
-<script type="text/javascript" src="/Public/Admin/js/jquery-2.2.1.min.js"></script>
-<script type="text/javascript" src="/Public/Admin/js/jquery.form.js"></script>
-<script type="text/javascript" src="/Public/Plug/layer-v2.2/layer/layer.js"></script>
-<script src="/Public/Plug/jquery.validate/jquery.validate.js" type="text/javascript"></script>
-<link href="/Public/Plug/jquery.validate/jquery.validate.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="/duduchuanqi/Public/Admin/css/admin_all.css">
+<link type="text/css" href="/duduchuanqi/Public/Plug/layer-v2.2/layer/skin/layer.css" rel="stylesheet" />
+<script type="text/javascript" src="/duduchuanqi/Public/Admin/js/jquery-2.2.1.min.js"></script>
+<script type="text/javascript" src="/duduchuanqi/Public/Admin/js/jquery.form.js"></script>
+<script type="text/javascript" src="/duduchuanqi/Public/Plug/layer-v2.2/layer/layer.js"></script>
+<script src="/duduchuanqi/Public/Plug/jquery.validate/jquery.validate.js" type="text/javascript"></script>
+<link href="/duduchuanqi/Public/Plug/jquery.validate/jquery.validate.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div class="admin_all">
@@ -24,12 +24,12 @@
     </span>
     <div>
         <i>BASIC DATA</i>
-        <?php if(is_array($nav)): $i = 0; $__LIST__ = $nav;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; if(($vo["contr_name"]) != "Admin"): ?><a href="<?php echo ($vo["url"]); ?>" <?php if((CONTROLLER_NAME) == $vo["contr_name"]): ?>id="admin_dhxz"<?php endif; ?>><?php echo ($vo["name"]); ?></a><?php endif; endforeach; endif; else: echo "" ;endif; ?>
+        <?php if(is_array($nav)): $i = 0; $__LIST__ = $nav;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; if(($vo["contr_name"]) != "Admin"): ?><a href="/duduchuanqi<?php echo ($vo["url"]); ?>" <?php if((CONTROLLER_NAME) == $vo["contr_name"]): ?>id="admin_dhxz"<?php endif; ?>><?php echo ($vo["name"]); ?></a><?php endif; endforeach; endif; else: echo "" ;endif; ?>
         <i>ARTICLES DATA</i>
         <?php if(is_array($nav_column)): $i = 0; $__LIST__ = $nav_column;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$cl): $mod = ($i % 2 );++$i;?><a href="/Admin/Article/index?cid=<?php echo ($cl["id"]); ?>" <?php if(($cl["id"]) == $_GET['cid']): ?>id="admin_dhxz"<?php endif; ?> <?php if(($inIt) == $cl["id"]): ?>id="admin_dhxz"<?php endif; ?> ><?php echo ($cl["title"]); ?></a><?php endforeach; endif; else: echo "" ;endif; ?>
         <i>EXECUTION DATA</i>
-        <?php if(is_array($nav)): $i = 0; $__LIST__ = $nav;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; if(($vo["contr_name"]) == "Admin"): ?><a href="<?php echo ($vo["url"]); ?>" <?php if((CONTROLLER_NAME) == $vo["contr_name"]): ?>id="admin_dhxz"<?php endif; ?>><?php echo ($vo["name"]); ?></a><?php endif; endforeach; endif; else: echo "" ;endif; ?>
-        <!--<?php if(($gid) == "-1"): ?><a href="/Admin/Admin" <?php if((CONTROLLER_NAME) == "Admin"): ?>id="admin_dhxz"<?php endif; ?>>账号管理</a><?php endif; ?>-->
+        <?php if(is_array($nav)): $i = 0; $__LIST__ = $nav;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; if(($vo["contr_name"]) == "Admin"): ?><a href="/duduchuanqi<?php echo ($vo["url"]); ?>" <?php if((CONTROLLER_NAME) == $vo["contr_name"]): ?>id="admin_dhxz"<?php endif; ?>><?php echo ($vo["name"]); ?></a><?php endif; endforeach; endif; else: echo "" ;endif; ?>
+        <!--<?php if(($gid) == "-1"): ?><a href="/duduchuanqi/Admin/Admin" <?php if((CONTROLLER_NAME) == "Admin"): ?>id="admin_dhxz"<?php endif; ?>>账号管理</a><?php endif; ?>-->
     </div>
 </div>
 	<div class="admin_r">

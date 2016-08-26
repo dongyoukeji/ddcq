@@ -70,6 +70,7 @@ body{
 	float: left;
 	width: 100%;
 	position: relative;
+	z-index: 3;
 }
 
 .client{
@@ -214,6 +215,8 @@ body{
 	float: left;
 	margin-top: 8px;
 	width: 100%;
+	height: 490px;
+	position: relative;
 }
 
 .right_content ul li{
@@ -232,11 +235,14 @@ body{
 
 .right_content ul li a{
 	display: inline-block;
-	max-width: 339px;
+	max-width: 70%;
 	overflow: hidden;
 	vertical-align: top;
 	margin-right: 8px;
 	color: #dab377;
+	white-space:nowrap; 
+	overflow:hidden; 
+	text-overflow:ellipsis;
 }
 
 .right_content ul li a:hover{
@@ -343,7 +349,7 @@ body{
 }
 
 .cross_indro{
-	height: 204px;
+	float: left;
 	padding: 40px 40px;
 	background: #fff;
 }
@@ -367,7 +373,7 @@ body{
 	display: block;
 	float: left;
 	color: #666;
-	padding: 0 6px;
+	width: 70px;
 	border-right: 1px solid #999;
 	margin-top: 5px;
 }
@@ -532,10 +538,7 @@ body{
 .main_right{
 	float: right;
 	width: 525px;
-	position: absolute;
-	z-index: 3;
-	right: 0;
-	top: 15px;
+	margin-top: 15px;
 }
 
 .notice_info img{

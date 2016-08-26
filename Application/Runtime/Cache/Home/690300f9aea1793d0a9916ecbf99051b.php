@@ -2,20 +2,22 @@
 <html lang="zh-cn">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="/Public/Home/css/base.css">
-    <link rel="stylesheet" type="text/css" href="/Public/Home/css/style.css">
-    <script type="text/javascript" src="/Public/Home/js/jquery.min-1.7.1.js"></script>
-    <script type="text/javascript" src="/Public/Home/js/kxbdMarquee.js"></script>
+    <title>嘟嘟传奇</title>
+    <meta name="Description" content="《嘟嘟传奇》游戏延续了传奇经典玩法，攻城、PK,还原经典！全新精细画质,复古热血传奇的玩法,全新战场,公平竞争,现热血辉煌启幕，诚邀您来战。">
+    <meta name="Keywords" content="嘟嘟传奇 嘟嘟传奇官网 嘟嘟 传奇 高清传奇">
+    <link rel="stylesheet" type="text/css" href="/duduchuanqi/Public/Home/css/base.css">
+    <link rel="stylesheet" type="text/css" href="/duduchuanqi/Public/Home/css/style.css">
+    <script type="text/javascript" src="/duduchuanqi/Public/Home/js/jquery.min-1.7.1.js"></script>
+    <script type="text/javascript" src="/duduchuanqi/Public/Home/js/kxbdMarquee.js"></script>
 </head>
 <body>
     <div class="weball">
         <div class="header">
-            <img src="/Public/Home/images/logo.fw.png" class="logo" />
-            <img src="/Public/Home/images/font.fw.png" class="font" />
-            <img src="/Public/Home/images/person.fw.png" class="person" />
+            <img src="/duduchuanqi/Public/Home/images/logo.fw.png" class="logo" />
+            <img src="/duduchuanqi/Public/Home/images/font.fw.png" class="font" />
+            <img src="/duduchuanqi/Public/Home/images/person.fw.png" class="person" />
             <ul class="nav">
-                <li class="active"><a href="#">官方首页</a></li>
+                <li class="active"><a href="<?php echo U('index');?>">官方首页</a></li>
                 <li><a href="#">新闻中心</a></li>
                 <li><a href="#">游戏介绍</a></li>
                 <li><a href="#">用户中心</a></li>
@@ -24,7 +26,7 @@
             </ul>
         </div>
 		<div class="main">
-			<div class="main_left">
+			<div class="main_left" style="width: 780px; padding: 25px">
 				<div class="title">
 					<h1><?php echo ($vo["title"]); ?></h1>
 					<span><?php echo (date("y-m-d",$vo["date"])); ?></span>
@@ -33,18 +35,23 @@
 					<?php echo ($vo["content"]); ?>
 				</div>
 			</div>
-			<div class="main_right">
-				<div class="info_right">
+			<div class="main_right" style="width: 345px;">
+				<div class="info_right" style="width:315px;">
 					<div class="right_title">
 						<b>DUDU公告</b>
 						<a href="<?php echo U('notice_list');?>">MORE</a>
 					</div>
+					<style type="text/css">
+						.right_content ul li a{
+							width: 50%;
+						}
+					</style>
 					<div class="right_content right_content1">
 						
 					</div>
 				</div>
-				<div class="cross_indro mar_top">
-					<div class="cross_list">
+				<div class="cross_indro">
+					<div class="cross_list" style="margin-left:30px;">
 						<h2 class="cross1">新手入门</h2>
 						<a href="#">师徒系统</a>
 						<a href="#">聊天系统</a>
@@ -53,50 +60,50 @@
 						<a href="#">助手系统</a>
 						<a href="#" style="border:none;">摆摊系统</a>
 					</div>
-					<div class="cross_list" style="margin-right:0;">
+					<div class="cross_list" style="margin-left:30px;">
 						<h2 class="cross2">高手进阶</h2>
-						<a href="#">师徒系统</a>
-						<a href="#">聊天系统</a>
-						<a href="#" style="border:none;">交易系统</a>
-						<a href="#">包裹系统</a>
-						<a href="#">助手系统</a>
-						<a href="#" style="border:none;">摆摊系统</a>
+						<a href="#">战士技能</a>
+						<a href="#">法师技能</a>
+						<a href="#" style="border:none;">道士技能</a>
+						<a href="#">结婚系统</a>
+						<a href="#">行会系统</a>
+						<a href="#" style="border:none;">称号系统</a>
 					</div>
-					<div class="cross_list">
+					<div class="cross_list" style="margin-left:30px;">
 						<h2 class="cross3">特色玩法</h2>
-						<a href="#">师徒系统</a>
-						<a href="#">聊天系统</a>
-						<a href="#" style="border:none;">交易系统</a>
-						<a href="#">包裹系统</a>
-						<a href="#">助手系统</a>
-						<a href="#" style="border:none;">摆摊系统</a>
+						<a href="#">世界怪物</a>
+						<a href="#">元宝捐赠</a>
+						<a href="#" style="border:none;">领地系统</a>
+						<a href="#">沙巴克攻</a>
+						<a href="#">虚空幻境</a>
+						<a href="#" style="border:none;">幸运农场</a>
 					</div>
-					<div class="cross_list" style="margin-right:0;">
+					<div class="cross_list" style="margin: 0 0 0 30px;">
 						<h2 class="cross4">道具装备</h2>
-						<a href="#">师徒系统</a>
-						<a href="#">聊天系统</a>
-						<a href="#" style="border:none;">交易系统</a>
-						<a href="#">包裹系统</a>
-						<a href="#">助手系统</a>
-						<a href="#" style="border:none;">摆摊系统</a>
+						<a href="#">普通道具</a>
+						<a href="#">普通材料</a>
+						<a href="#" style="border:none;">套装系统</a>
+						<a href="#">赤月系列</a>
+						<a href="#">祖玛系列</a>
+						<a href="#" style="border:none;">沃玛系列</a>
 					</div>
 				</div>
 			</div>
 <div class="game_img">
                 <b>
-                    <img src="/Public/Home/images/game1.jpg">
+                    <img src="/duduchuanqi/Public/Home/images/game1.jpg">
                     比奇皇宫
                 </b>
                 <b>
-                    <img src="/Public/Home/images/game2.jpg">
+                    <img src="/duduchuanqi/Public/Home/images/game2.jpg">
                     苍月码头
                 </b>
                 <b>
-                    <img src="/Public/Home/images/game3.jpg">
+                    <img src="/duduchuanqi/Public/Home/images/game3.jpg">
                     白日门
                 </b>
                 <b style="margin-right:0;">
-                    <img src="/Public/Home/images/game4.jpg">
+                    <img src="/duduchuanqi/Public/Home/images/game4.jpg">
                     封魔城门
                 </b>
             </div>
@@ -150,7 +157,7 @@ $(function () {
     });
 
     $(function(){
-        $.post('/Home/Index/get_article_list',{s:8},function(data){
+        $.post('/duduchuanqi/Home/Index/get_article_list',{s:8},function(data){
             console.log(data);
             if(data.status==1){
                 $('.right_content1').html(data.list);

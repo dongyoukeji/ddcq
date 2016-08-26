@@ -3,10 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<title>CPA88.com_后台登录</title>
-	<link rel="stylesheet" href="/Public/Admin/css/login.css">
-	<script type="text/javascript" src="/Public/Admin/js/jquery-2.2.1.min.js"></script>
+	<link rel="stylesheet" href="/duduchuangqi/Public/Admin/css/login.css">
+	<script type="text/javascript" src="/duduchuangqi/Public/Admin/js/jquery-2.2.1.min.js"></script>
 </head>
-<body style="background: url('/Public/Admin/images/login_bg.jpg'); background-size: cover;">
+<body style="background: url('/duduchuangqi/Public/Admin/images/login_bg.jpg'); background-size: cover;">
 <div class="login2">
 	<span>后台登陆</span>
 	<form action="<?php echo U('public/login');?>" method="post">

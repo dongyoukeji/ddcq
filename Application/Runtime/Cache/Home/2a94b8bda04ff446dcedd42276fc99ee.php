@@ -2,18 +2,20 @@
 <html lang="zh-cn">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="/Public/Home/css/base.css">
-    <link rel="stylesheet" type="text/css" href="/Public/Home/css/style.css">
-    <script type="text/javascript" src="/Public/Home/js/jquery.min-1.7.1.js"></script>
-    <script type="text/javascript" src="/Public/Home/js/kxbdMarquee.js"></script>
+    <title>嘟嘟传奇</title>
+    <meta name="Description" content="《嘟嘟传奇》游戏延续了传奇经典玩法，攻城、PK,还原经典！全新精细画质,复古热血传奇的玩法,全新战场,公平竞争,现热血辉煌启幕，诚邀您来战。">
+    <meta name="Keywords" content="嘟嘟传奇 嘟嘟传奇官网 嘟嘟 传奇 高清传奇">
+    <link rel="stylesheet" type="text/css" href="/duduchuanqi/Public/Home/css/base.css">
+    <link rel="stylesheet" type="text/css" href="/duduchuanqi/Public/Home/css/style.css">
+    <script type="text/javascript" src="/duduchuanqi/Public/Home/js/jquery.min-1.7.1.js"></script>
+    <script type="text/javascript" src="/duduchuanqi/Public/Home/js/kxbdMarquee.js"></script>
 </head>
 <body>
     <div class="weball">
         <div class="header">
-            <img src="/Public/Home/images/logo.fw.png" class="logo" />
-            <img src="/Public/Home/images/font.fw.png" class="font" />
-            <img src="/Public/Home/images/person.fw.png" class="person" />
+            <img src="/duduchuanqi/Public/Home/images/logo.fw.png" class="logo" />
+            <img src="/duduchuanqi/Public/Home/images/font.fw.png" class="font" />
+            <img src="/duduchuanqi/Public/Home/images/person.fw.png" class="person" />
             <ul class="nav">
                 <li class="active"><a href="<?php echo U('index');?>">官方首页</a></li>
                 <li><a href="#">新闻中心</a></li>
@@ -26,14 +28,14 @@
 		<div class="main">
 			<!-- 客户端下载 -->
 			<div class="client">
-				<a href="#"><img src="/Public/Home/images/client1.fw.png"></a>
-				<a href="#"><img src="/Public/Home/images/client2.fw.png"></a>
+				<a href="#"><img src="/duduchuanqi/Public/Home/images/client1.fw.png"></a>
+				<a href="#"><img src="/duduchuanqi/Public/Home/images/client2.fw.png"></a>
 				<span>
 					<a href="#" class="recharge1 bor_left"></a>
 					<a href="#" class="recharge2"></a>
 				</span>
-				<a class="bor_left"><img src="/Public/Home/images/sbk1.jpg" /></a>
-				<a><img src="/Public/Home/images/sbk2.jpg" /></a>
+				<a class="bor_left"><img src="/duduchuanqi/Public/Home/images/sbk1.jpg" /></a>
+				<a><img src="/duduchuanqi/Public/Home/images/sbk2.jpg" /></a>
 			</div>
 			<div class="info height1">
 				<!-- 轮播图 -->
@@ -41,27 +43,27 @@
 					<div id="PicCont">
 						<div class="Pic">
 							<a>
-								<img src="/Public/Home/images/001.jpg">
+								<img src="/duduchuanqi/Public/Home/images/001.jpg">
 							</a>
 						</div>
 						<div class="Pic">
 							<a>
-								<img src="/Public/Home/images/002.jpg">
+								<img src="/duduchuanqi/Public/Home/images/002.jpg">
 							</a>
 						</div>
 						<div class="Pic">
 							<a>
-								<img src="/Public/Home/images/003.jpg">
+								<img src="/duduchuanqi/Public/Home/images/003.jpg">
 							</a>
 						</div>
 						<div class="Pic">
 							<a>
-								<img src="/Public/Home/images/004.jpg">
+								<img src="/duduchuanqi/Public/Home/images/004.jpg">
 							</a>
 						</div>
 						<div class="Pic">
 							<a>
-								<img src="/Public/Home/images/005.jpg">
+								<img src="/duduchuanqi/Public/Home/images/005.jpg">
 							</a>
 						</div>
 						<div id="PicNum">
@@ -71,7 +73,7 @@
 				<div class="info_right">
 					<div class="right_title">
 						<b>DUDU公告</b>
-						<a href="notice_list.html">MORE</a>
+						<a href="<?php echo U('notice_list');?>">MORE</a>
 					</div>
 					<div class="right_content right_content1">
 						
@@ -89,11 +91,11 @@
 					<!-- 战士 -->
 					<div class="pro_job">
 						<a>
-							<img src="/Public/Home/images/job1.fw.png">
+							<img src="/duduchuanqi/Public/Home/images/job1.fw.png">
 						</a>
 						<div class="job_intro">
 							<h3>热血英豪</h3>
-							<p>兼具近战打击和远程施法能力的辅助型职业，亦可召唤宠物协助攻击 </p>
+							<p>近战物理职业，通过暴力摧毁敌人</p>
 							<h4>职业特征</h4>
 							<p>天生神力，作为近战物理输出职业，他们总是冲锋在战斗的第一线，挥舞
 							着强大的武器。不仅如此，他们无懈可击的防御技巧可破解敌人强力的攻
@@ -103,39 +105,35 @@
 					<!-- 法师 -->
 					<div class="pro_job" style="display:none;">
 						<a>
-							<img src="/Public/Home/images/job2.fw.png">
+							<img src="/duduchuanqi/Public/Home/images/job2.fw.png">
 						</a>
 						<div class="job_intro">
-							<h3>热血英豪</h3>
-							<p>兼具近战打击和远程施法能力的辅助型职业，亦可召唤宠物协助攻击 </p>
+							<h3>飘逸魔灵</h3>
+							<p>职业特征魔法职业，拥有最强大的远程群体魔法</p>
 							<h4>职业特征</h4>
-							<p>天生神力，作为近战物理输出职业，他们总是冲锋在战斗的第一线，挥舞
-							着强大的武器。不仅如此，他们无懈可击的防御技巧可破解敌人强力的攻
-							势，是团队中最可靠的防线。站在他们背后可以感受到无尽的安全感。 </p>
+							<p>通过使用法术对单个或者群体敌人造成毁灭性的伤害。冰霜、火焰、雷电被法师们运用得行云流水。虽然自身保护的能力较弱，却依然不可小觑他们，因为有可能当你看见他们还没有来得及做出反应，就已被他们释放的烈火所吞噬。</p>
 						</div>
 					</div>
 					<!-- 道士 -->
 					<div class="pro_job" style="display:none;">
 						<a>
-							<img src="/Public/Home/images/job3.fw.png">
+							<img src="/duduchuanqi/Public/Home/images/job3.fw.png">
 						</a>
 						<div class="job_intro">
-							<h3>热血英豪</h3>
-							<p>兼具近战打击和远程施法能力的辅助型职业，亦可召唤宠物协助攻击 </p>
+							<h3>玄境天尊</h3>
+							<p>兼具近战打击和远程施法能力的辅助型职业，亦可召唤宠物协助攻击</p>
 							<h4>职业特征</h4>
-							<p>天生神力，作为近战物理输出职业，他们总是冲锋在战斗的第一线，挥舞
-							着强大的武器。不仅如此，他们无懈可击的防御技巧可破解敌人强力的攻
-							势，是团队中最可靠的防线。站在他们背后可以感受到无尽的安全感。 </p>
+							<p>攻守兼备的远程法术输出职业，通过使用法术和符咒对敌人施以剧毒，还能辅助队友击破强敌，最为神秘的是他们能召唤骷髅或者神兽协助作战。这些神奇的能力往往让敌人头痛万分，也让道士们可以独自行走在玛法最危险的地带。</p>
 						</div>
 					</div>
 				</div>
 				<div class="beauty">
 					<h3>美女玩家</h3>
 					<div class="beauty_img">
-						<img src="/Public/Home/images/beauty1.jpg">
-						<img src="/Public/Home/images/beauty2.jpg">
-						<img src="/Public/Home/images/beauty3.jpg">
-						<img src="/Public/Home/images/beauty4.jpg">
+						<img src="/duduchuanqi/Public/Home/images/beauty1.jpg">
+						<img src="/duduchuanqi/Public/Home/images/beauty2.jpg">
+						<img src="/duduchuanqi/Public/Home/images/beauty3.jpg">
+						<img src="/duduchuanqi/Public/Home/images/beauty4.jpg">
 					</div>
 				</div>
 			</div>
@@ -152,30 +150,30 @@
 					</div>
 					<div class="cross_list" style="margin-right:0;">
 						<h2 class="cross2">高手进阶</h2>
-						<a href="#">师徒系统</a>
-						<a href="#">聊天系统</a>
-						<a href="#" style="border:none;">交易系统</a>
-						<a href="#">包裹系统</a>
-						<a href="#">助手系统</a>
-						<a href="#" style="border:none;">摆摊系统</a>
+						<a href="#">战士技能</a>
+						<a href="#">法师技能</a>
+						<a href="#" style="border:none;">道士技能</a>
+						<a href="#">结婚系统</a>
+						<a href="#">行会系统</a>
+						<a href="#" style="border:none;">称号系统</a>
 					</div>
 					<div class="cross_list">
 						<h2 class="cross3">特色玩法</h2>
-						<a href="#">师徒系统</a>
-						<a href="#">聊天系统</a>
-						<a href="#" style="border:none;">交易系统</a>
-						<a href="#">包裹系统</a>
-						<a href="#">助手系统</a>
-						<a href="#" style="border:none;">摆摊系统</a>
+						<a href="#">世界怪物</a>
+						<a href="#">元宝捐赠</a>
+						<a href="#" style="border:none;">领地系统</a>
+						<a href="#">沙巴克攻</a>
+						<a href="#">虚空幻境</a>
+						<a href="#" style="border:none;">幸运农场</a>
 					</div>
 					<div class="cross_list" style="margin-right:0;">
 						<h2 class="cross4">道具装备</h2>
-						<a href="#">师徒系统</a>
-						<a href="#">聊天系统</a>
-						<a href="#" style="border:none;">交易系统</a>
-						<a href="#">包裹系统</a>
-						<a href="#">助手系统</a>
-						<a href="#" style="border:none;">摆摊系统</a>
+						<a href="#">普通道具</a>
+						<a href="#">普通材料</a>
+						<a href="#" style="border:none;">套装系统</a>
+						<a href="#">赤月系列</a>
+						<a href="#">祖玛系列</a>
+						<a href="#" style="border:none;">沃玛系列</a>
 					</div>
 				</div>
 				<div class="player">
@@ -205,19 +203,19 @@
 			</div>
 <div class="game_img">
                 <b>
-                    <img src="/Public/Home/images/game1.jpg">
+                    <img src="/duduchuanqi/Public/Home/images/game1.jpg">
                     比奇皇宫
                 </b>
                 <b>
-                    <img src="/Public/Home/images/game2.jpg">
+                    <img src="/duduchuanqi/Public/Home/images/game2.jpg">
                     苍月码头
                 </b>
                 <b>
-                    <img src="/Public/Home/images/game3.jpg">
+                    <img src="/duduchuanqi/Public/Home/images/game3.jpg">
                     白日门
                 </b>
                 <b style="margin-right:0;">
-                    <img src="/Public/Home/images/game4.jpg">
+                    <img src="/duduchuanqi/Public/Home/images/game4.jpg">
                     封魔城门
                 </b>
             </div>
@@ -271,7 +269,7 @@ $(function () {
     });
 
     $(function(){
-        $.post('/Home/Index/get_article_list',{s:8},function(data){
+        $.post('/duduchuanqi/Home/Index/get_article_list',{s:8},function(data){
             console.log(data);
             if(data.status==1){
                 $('.right_content1').html(data.list);

@@ -2,18 +2,20 @@
 <html lang="zh-cn">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="/Public/Home/css/base.css">
-    <link rel="stylesheet" type="text/css" href="/Public/Home/css/style.css">
-    <script type="text/javascript" src="/Public/Home/js/jquery.min-1.7.1.js"></script>
-    <script type="text/javascript" src="/Public/Home/js/kxbdMarquee.js"></script>
+    <title>嘟嘟传奇</title>
+    <meta name="Description" content="《嘟嘟传奇》游戏延续了传奇经典玩法，攻城、PK,还原经典！全新精细画质,复古热血传奇的玩法,全新战场,公平竞争,现热血辉煌启幕，诚邀您来战。">
+    <meta name="Keywords" content="嘟嘟传奇 嘟嘟传奇官网 嘟嘟 传奇 高清传奇">
+    <link rel="stylesheet" type="text/css" href="/duduchuanqi/Public/Home/css/base.css">
+    <link rel="stylesheet" type="text/css" href="/duduchuanqi/Public/Home/css/style.css">
+    <script type="text/javascript" src="/duduchuanqi/Public/Home/js/jquery.min-1.7.1.js"></script>
+    <script type="text/javascript" src="/duduchuanqi/Public/Home/js/kxbdMarquee.js"></script>
 </head>
 <body>
     <div class="weball">
         <div class="header">
-            <img src="/Public/Home/images/logo.fw.png" class="logo" />
-            <img src="/Public/Home/images/font.fw.png" class="font" />
-            <img src="/Public/Home/images/person.fw.png" class="person" />
+            <img src="/duduchuanqi/Public/Home/images/logo.fw.png" class="logo" />
+            <img src="/duduchuanqi/Public/Home/images/font.fw.png" class="font" />
+            <img src="/duduchuanqi/Public/Home/images/person.fw.png" class="person" />
             <ul class="nav">
                 <li class="active"><a href="<?php echo U('index');?>">官方首页</a></li>
                 <li><a href="#">新闻中心</a></li>
@@ -25,17 +27,25 @@
         </div>
 		<div class="main">
 			<div class="main_left notice-list">
-				<div class="right_title">
+				<div class="right_title" style="margin-top: -15px;">
 					<b>DUDU公告</b>
 				</div>
 				<div class="right_content">
-					<ul>
+					<ul style="font-size: 16px;">
 						<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li>
-							<span>[<?php echo ($vo["date"]); ?>]</span>
+							<span>[<?php echo (date("Y-m-d",$vo["date"])); ?>]</span>
 							【公告】
 							<a href="<?php echo U('index/notice?id='.$vo['id']);?>" class="author"><?php echo ($vo["title"]); ?></a>
 						</li><?php endforeach; endif; else: echo "" ;endif; ?>	
 					</ul>
+					<style type="text/css">
+						.page{
+							position: absolute;
+							bottom: 0px;
+							right: 0px;
+							color: #dab377;
+						}
+					</style>
 					<div class="page">
 						<?php echo ($page); ?>
 					</div>
@@ -111,19 +121,19 @@
 			</div>
 <div class="game_img">
                 <b>
-                    <img src="/Public/Home/images/game1.jpg">
+                    <img src="/duduchuanqi/Public/Home/images/game1.jpg">
                     比奇皇宫
                 </b>
                 <b>
-                    <img src="/Public/Home/images/game2.jpg">
+                    <img src="/duduchuanqi/Public/Home/images/game2.jpg">
                     苍月码头
                 </b>
                 <b>
-                    <img src="/Public/Home/images/game3.jpg">
+                    <img src="/duduchuanqi/Public/Home/images/game3.jpg">
                     白日门
                 </b>
                 <b style="margin-right:0;">
-                    <img src="/Public/Home/images/game4.jpg">
+                    <img src="/duduchuanqi/Public/Home/images/game4.jpg">
                     封魔城门
                 </b>
             </div>
@@ -177,7 +187,7 @@ $(function () {
     });
 
     $(function(){
-        $.post('/Home/Index/get_article_list',{s:8},function(data){
+        $.post('/duduchuanqi/Home/Index/get_article_list',{s:8},function(data){
             console.log(data);
             if(data.status==1){
                 $('.right_content1').html(data.list);

@@ -1,6 +1,6 @@
 <include file="Common:header"/>
 		<div class="main">
-			<div class="main_left">
+			<div class="main_left" style="width: 780px; padding: 25px">
 				<div class="title">
 					<h1>{$vo.title}</h1>
 					<span>{$vo.date|date="y-m-d",###}</span>
@@ -9,18 +9,23 @@
 					{$vo.content}
 				</div>
 			</div>
-			<div class="main_right">
-				<div class="info_right">
+			<div class="main_right" style="width: 345px;">
+				<div class="info_right" style="width:315px;">
 					<div class="right_title">
 						<b>DUDU公告</b>
 						<a href="{:U('notice_list')}">MORE</a>
 					</div>
+					<style type="text/css">
+						.right_content ul li a{
+							width: 50%;
+						}
+					</style>
 					<div class="right_content right_content1">
 						
 					</div>
 				</div>
-				<div class="cross_indro mar_top">
-					<div class="cross_list">
+				<div class="cross_indro">
+					<div class="cross_list" style="margin-left:30px;">
 						<h2 class="cross1">新手入门</h2>
 						<a href="#">师徒系统</a>
 						<a href="#">聊天系统</a>
@@ -29,32 +34,32 @@
 						<a href="#">助手系统</a>
 						<a href="#" style="border:none;">摆摊系统</a>
 					</div>
-					<div class="cross_list" style="margin-right:0;">
+					<div class="cross_list" style="margin-left:30px;">
 						<h2 class="cross2">高手进阶</h2>
-						<a href="#">师徒系统</a>
-						<a href="#">聊天系统</a>
-						<a href="#" style="border:none;">交易系统</a>
-						<a href="#">包裹系统</a>
-						<a href="#">助手系统</a>
-						<a href="#" style="border:none;">摆摊系统</a>
+						<a href="#">战士技能</a>
+						<a href="#">法师技能</a>
+						<a href="#" style="border:none;">道士技能</a>
+						<a href="#">结婚系统</a>
+						<a href="#">行会系统</a>
+						<a href="#" style="border:none;">称号系统</a>
 					</div>
-					<div class="cross_list">
+					<div class="cross_list" style="margin-left:30px;">
 						<h2 class="cross3">特色玩法</h2>
-						<a href="#">师徒系统</a>
-						<a href="#">聊天系统</a>
-						<a href="#" style="border:none;">交易系统</a>
-						<a href="#">包裹系统</a>
-						<a href="#">助手系统</a>
-						<a href="#" style="border:none;">摆摊系统</a>
+						<a href="#">世界怪物</a>
+						<a href="#">元宝捐赠</a>
+						<a href="#" style="border:none;">领地系统</a>
+						<a href="#">沙巴克攻</a>
+						<a href="#">虚空幻境</a>
+						<a href="#" style="border:none;">幸运农场</a>
 					</div>
-					<div class="cross_list" style="margin-right:0;">
+					<div class="cross_list" style="margin: 0 0 0 30px;">
 						<h2 class="cross4">道具装备</h2>
-						<a href="#">师徒系统</a>
-						<a href="#">聊天系统</a>
-						<a href="#" style="border:none;">交易系统</a>
-						<a href="#">包裹系统</a>
-						<a href="#">助手系统</a>
-						<a href="#" style="border:none;">摆摊系统</a>
+						<a href="#">普通道具</a>
+						<a href="#">普通材料</a>
+						<a href="#" style="border:none;">套装系统</a>
+						<a href="#">赤月系列</a>
+						<a href="#">祖玛系列</a>
+						<a href="#" style="border:none;">沃玛系列</a>
 					</div>
 				</div>
 			</div>

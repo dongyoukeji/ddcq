@@ -5,13 +5,13 @@
 <title>阳澄湖大螃蟹后台</title>
 <meta content="关键词" name="Keywords">
 <meta content="描述" name="Description">
-<link rel="stylesheet" type="text/css" href="/Public/Admin/css/admin_all.css">
-<link type="text/css" href="/Public/Plug/layer-v2.2/layer/skin/layer.css" rel="stylesheet" />
-<script type="text/javascript" src="/Public/Admin/js/jquery-2.2.1.min.js"></script>
-<script type="text/javascript" src="/Public/Admin/js/jquery.form.js"></script>
-<script type="text/javascript" src="/Public/Plug/layer-v2.2/layer/layer.js"></script>
-<script src="/Public/Plug/jquery.validate/jquery.validate.js" type="text/javascript"></script>
-<link href="/Public/Plug/jquery.validate/jquery.validate.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="/duduchuanqi/Public/Admin/css/admin_all.css">
+<link type="text/css" href="/duduchuanqi/Public/Plug/layer-v2.2/layer/skin/layer.css" rel="stylesheet" />
+<script type="text/javascript" src="/duduchuanqi/Public/Admin/js/jquery-2.2.1.min.js"></script>
+<script type="text/javascript" src="/duduchuanqi/Public/Admin/js/jquery.form.js"></script>
+<script type="text/javascript" src="/duduchuanqi/Public/Plug/layer-v2.2/layer/layer.js"></script>
+<script src="/duduchuanqi/Public/Plug/jquery.validate/jquery.validate.js" type="text/javascript"></script>
+<link href="/duduchuanqi/Public/Plug/jquery.validate/jquery.validate.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div class="admin_all">
@@ -24,12 +24,12 @@
     </span>
     <div>
         <i>BASIC DATA</i>
-        <?php if(is_array($nav)): $i = 0; $__LIST__ = $nav;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; if(($vo["contr_name"]) != "Admin"): ?><a href="<?php echo ($vo["url"]); ?>" <?php if((CONTROLLER_NAME) == $vo["contr_name"]): ?>id="admin_dhxz"<?php endif; ?>><?php echo ($vo["name"]); ?></a><?php endif; endforeach; endif; else: echo "" ;endif; ?>
+        <?php if(is_array($nav)): $i = 0; $__LIST__ = $nav;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; if(($vo["contr_name"]) != "Admin"): ?><a href="/duduchuanqi<?php echo ($vo["url"]); ?>" <?php if((CONTROLLER_NAME) == $vo["contr_name"]): ?>id="admin_dhxz"<?php endif; ?>><?php echo ($vo["name"]); ?></a><?php endif; endforeach; endif; else: echo "" ;endif; ?>
         <i>ARTICLES DATA</i>
         <?php if(is_array($nav_column)): $i = 0; $__LIST__ = $nav_column;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$cl): $mod = ($i % 2 );++$i;?><a href="/Admin/Article/index?cid=<?php echo ($cl["id"]); ?>" <?php if(($cl["id"]) == $_GET['cid']): ?>id="admin_dhxz"<?php endif; ?> <?php if(($inIt) == $cl["id"]): ?>id="admin_dhxz"<?php endif; ?> ><?php echo ($cl["title"]); ?></a><?php endforeach; endif; else: echo "" ;endif; ?>
         <i>EXECUTION DATA</i>
-        <?php if(is_array($nav)): $i = 0; $__LIST__ = $nav;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; if(($vo["contr_name"]) == "Admin"): ?><a href="<?php echo ($vo["url"]); ?>" <?php if((CONTROLLER_NAME) == $vo["contr_name"]): ?>id="admin_dhxz"<?php endif; ?>><?php echo ($vo["name"]); ?></a><?php endif; endforeach; endif; else: echo "" ;endif; ?>
-        <!--<?php if(($gid) == "-1"): ?><a href="/Admin/Admin" <?php if((CONTROLLER_NAME) == "Admin"): ?>id="admin_dhxz"<?php endif; ?>>账号管理</a><?php endif; ?>-->
+        <?php if(is_array($nav)): $i = 0; $__LIST__ = $nav;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; if(($vo["contr_name"]) == "Admin"): ?><a href="/duduchuanqi<?php echo ($vo["url"]); ?>" <?php if((CONTROLLER_NAME) == $vo["contr_name"]): ?>id="admin_dhxz"<?php endif; ?>><?php echo ($vo["name"]); ?></a><?php endif; endforeach; endif; else: echo "" ;endif; ?>
+        <!--<?php if(($gid) == "-1"): ?><a href="/duduchuanqi/Admin/Admin" <?php if((CONTROLLER_NAME) == "Admin"): ?>id="admin_dhxz"<?php endif; ?>>账号管理</a><?php endif; ?>-->
     </div>
 </div>
 	<div class="admin_r">
@@ -44,11 +44,11 @@
             <?php if(!empty($child)): if(count($child) > 1): if(is_array($child)): $i = 0; $__LIST__ = $child;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$ch): $mod = ($i % 2 );++$i;?><a href="/Admin/Article/index?cid=<?php echo ($ch["id"]); ?>" <?php if(($ch["id"]) == "Think.get.cid"): ?>id="admin_bg_t_x"<?php endif; ?> <?php if(($inIt) == $ch["id"]): ?>id="admin_bg_t_x"<?php endif; ?> ><?php echo ($ch["title"]); ?>列表</a><?php endforeach; endif; else: echo "" ;endif; ?>
                     <?php else: ?>
                     <a href="/Admin/Article/index?cid=<?php echo ($child[0]['id']); ?>" id="admin_bg_t_x"><?php echo ($child[0]['title']); ?>列表</a>
-                    <a href="/Admin/Article/add?cid=<?php echo ($child[0]['id']); ?>">文档添加</a><?php endif; ?>
+                    <a href="/duduchuanqi/Admin/Article/add?cid=<?php echo ($child[0]['id']); ?>">文档添加</a><?php endif; ?>
                 <?php else: ?>
                 <a href="#" id="admin_bg_t_x"><?php echo ($column["title"]); ?>列表</a>
-                <a href="/Admin/Article/add?cid=<?php echo ($_GET['cid']); ?>">文档添加</a><?php endif; ?>
-            <!--<a href="/Admin/Article/add">客服添加</a>-->
+                <a href="/duduchuanqi/Admin/Article/add?cid=<?php echo ($_GET['cid']); ?>">文档添加</a><?php endif; ?>
+            <!--<a href="/duduchuanqi/Admin/Article/add">客服添加</a>-->
         </div>
         <div class="admin_bg_b">
             <ul class="admin_bg_b_t">
@@ -63,14 +63,14 @@
             <?php if(!empty($list)): if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><ul>
                         <li class="admin_bg4"><?php echo ($vo["id"]); ?></li>
                         <li class="admin_bg4"><?php echo ($vo["title"]); ?></li>
-                        <li class="admin_bg4"><?php echo ($vo["keywords"]); ?></li>
-                        <li class="admin_bg4"><?php echo ($vo["description"]); ?></li>
+                        <li class="admin_bg4"><?php if(!empty($vo["keywords"])): echo ($vo["keywords"]); else: ?>-<?php endif; ?></li>
+                        <li class="admin_bg4"><?php if(!empty($vo["description"])): echo ($vo["description"]); else: ?>-<?php endif; ?></li>
                         <li class="admin_bg4"><?php if(($vo["status"]) == "0"): ?><span class="green" style="border:none;">正常</span><?php endif; if(($vo["status"]) == "1"): ?><span class="red" style="border:none;">禁用</span><?php endif; ?></li>
                         <li class="admin_bg4"><?php echo (date("Y-m-d",$vo["date"])); ?></li>
                         <li class="admin_bg4">
-                            <a href="/Admin/Article/add?aid=<?php echo ($vo["id"]); ?>">编辑</a>
-                            <?php if(($vo["status"]) == "0"): ?><a href="/Admin/Article/status?id=<?php echo ($vo["id"]); ?>&t=1&ct=<?php echo ($vo["column_id"]); ?>" class="check-status">禁用</a><?php else: ?><a href="/Admin/Article/status?id=<?php echo ($vo["id"]); ?>&t=0&ct=<?php echo ($vo["column_id"]); ?>" class="check-status">正常</a><?php endif; ?>
-                            <a href="/Admin/Article/del?id=<?php echo ($vo["id"]); ?>" class="confirm" data-role="您确定要删除吗？删除后数据将不能恢复！">删除</a>
+                            <a href="/duduchuanqi/Admin/Article/add?aid=<?php echo ($vo["id"]); ?>">编辑</a>
+                            <?php if(($vo["status"]) == "0"): ?><a href="/duduchuanqi/Admin/Article/status?id=<?php echo ($vo["id"]); ?>&t=1&ct=<?php echo ($vo["column_id"]); ?>" class="check-status">禁用</a><?php else: ?><a href="/duduchuanqi/Admin/Article/status?id=<?php echo ($vo["id"]); ?>&t=0&ct=<?php echo ($vo["column_id"]); ?>" class="check-status">正常</a><?php endif; ?>
+                            <a href="/duduchuanqi/Admin/Article/del?id=<?php echo ($vo["id"]); ?>" class="confirm" data-role="您确定要删除吗？删除后数据将不能恢复！">删除</a>
                         </li>
                     </ul><?php endforeach; endif; else: echo "" ;endif; ?>
                 <div class="admin_null"><?php echo ($page); ?></div>

@@ -1,0 +1,137 @@
+[ 2016-08-26T12:53:24+08:00 ] ::1 /duduchuanqi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013307s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015187s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000347s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000452s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011191s ]
+
+[ 2016-08-26T12:53:26+08:00 ] ::1 /duduchuanqi/Home/Index/get_article_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001700s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0821s ]
+SQL: SELECT * FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0332s ]
+SQL: SELECT `id`,`title`,`date` FROM `think_article` WHERE `status` = 0 AND `column_id` IN ('','3') LIMIT 8   [ RunTime:0.0108s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000759s ]
+
+[ 2016-08-26T12:53:45+08:00 ] ::1 /duduchuanqi/index/notice/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001748s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0138s ]
+SQL: SELECT `id`,`column_id`,`title`,`author`,`keywords`,`description`,`image`,`content`,`hits`,`date` FROM `think_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0136s ]
+SQL: SELECT `id`,`title` FROM `think_column` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0009s ]
+SQL: update think_article set hits=hits+1 [ RunTime:0.0511s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001028s ]
+
+[ 2016-08-26T12:53:46+08:00 ] ::1 /duduchuanqi/Home/Index/get_article_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001534s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0321s ]
+SQL: SELECT * FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0036s ]
+SQL: SELECT `id`,`title`,`date` FROM `think_article` WHERE `status` = 0 AND `column_id` IN ('','3') LIMIT 8   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000492s ]
+
+[ 2016-08-26T12:54:00+08:00 ] ::1 /duduchuanqi/Index/notice_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006593s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `column_id` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0149s ]
+SQL: SELECT * FROM `think_article` WHERE `column_id` = 3 AND `status` = 0 LIMIT 0,10   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013832s ]
+
+[ 2016-08-26T12:54:00+08:00 ] ::1 /duduchuanqi/Home/Index/get_article_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001271s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002132s ]
+SQL: SHOW COLUMNS FROM `think_column` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `think_column` WHERE ( status=0 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0036s ]
+SQL: SELECT `id`,`title`,`date` FROM `think_article` WHERE `status` = 0 AND `column_id` IN ('','3') LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+
