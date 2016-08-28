@@ -22,7 +22,7 @@ class IndexController extends BaseController {
 
         $map['status']=0;
         $map['column_id']=array('in',$child);
-        $list = M('article')->field('id,title,date')->where($map)->limit($s)->select();
+        $list = M('article')->field('id,title,descriptin,date')->where($map)->limit($s)->select();
         foreach ($list as $k => $v) {
             $v['date']=date('Y-m-d',$v['date']);
             $list1[] = $v;
@@ -41,7 +41,7 @@ class IndexController extends BaseController {
     public function get_news_list($len=5,$callback=''){
         $map['status']=0;
         $map['column_id']=3;
-    	$list = M('article')->field('id,title,date')->where($map)->order('date desc')->limit($s)->select();
+    	$list = M('article')->field('id,title,descriptin,date')->where($map)->order('date desc')->limit($s)->select();
     	$callback = $callback?$callback:'CALLBACK';
     	echo $callback."(".json_encode($list).")";
     }
