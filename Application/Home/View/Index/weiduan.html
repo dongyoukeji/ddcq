@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+<!-- <link rel="stylesheet" type="text/css" href="__CSS__/style.css"> -->
+<script type="text/javascript" src="__JS__/jquery.min-1.7.1.js"></script>
+<style type="text/css">
+body,dd,dl,dt,h1,h2,h3,h4,h5,ul,ol,li,p,form,select,input{margin:0;padding:0}
+body{font-family: "Arial","SimSun"; color:#e4b950; font-size:12px;}
+a{color:#e4b950; text-decoration:none} 
+a:hover{color:#e01212;}
+ul,li {list-style:none;}
+img {border: none;}
+em,i{font-style:normal}
+.none{display:none}
+.fl{float:left}
+.fr{float:right}
+.tc{text-align:center}
+.clear{clear:both}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{zoom:1}
+.mian{width: 610px;margin:0 auto;border:1px #060001 solid;}
+
+.scroll{border:1px #5b3922 solid;height:213px}
+.scroll-img{width: 606px;height:211px;overflow: hidden;border:1px #100801 solid;}
+.scroll-btn{margin-top:-20px;position:relative;text-align: right;padding-right: 10px}
+.scroll-btn a{width:14px;height:14px;display:inline-block;margin:0 5px;background:url(http://res.mir5.com/project/launcher/images2/btn-banner.png) no-repeat 0 0;}
+.scroll-btn a:hover,.scroll-btn .scrollbtn{background-position:0 -14px;}
+
+
+.new{padding:0 0 0 17px;background:url(http://res.mir5.com/project/launcher/images2/new-bg.jpg) no-repeat;height: 195px}
+
+.new ul{color:#8a7054;line-height:24px;padding:45px 18px 0 0px}
+.new ul li{border-top: 1px #5e472e dashed}
+.new ul li:first-child{border-top:0;}
+.new ul li p{line-height: 18px;color: #524a44;margin-bottom: 5px;height: 36px;overflow: hidden;}
+.new ul a{color:#8a7054;overflow:hidden;display:inline-block;height: 24px;line-height:24px; vertical-align: middle;cursor: pointer;}
+.new ul a em{display: inline-block;max-width: 456px;margin-right: 10px; vertical-align: top;height: 24px;overflow: hidden;line-height: 24px}
+.new ul span{float:right;}
+.new ul a:hover{color:#e86c01}
+</style>
+</head>
+<body>
+    <div class="mian">
+        <div class="scroll">
+            <div class="scroll-img">
+                <a href="#"><img src='__IMAGES__/wd_bg.fw.png' /></a>
+            </div>   
+            <div class="scroll-btn">
+            </div>
+        </div>
+        <div class="new right_content right_content1">
+            
+        </div>
+        
+<script type="text/javascript">
+    $(function() {
+        $.post('__URL__/get_news_list',{s:5},function(data){
+            console.log(data);
+            // if(status == 1) {
+            //     $(".right_content1").html(data.list);
+            // }
+        });
+    });
+</script>
+</body>
+</html>
