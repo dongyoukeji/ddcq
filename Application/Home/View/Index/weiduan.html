@@ -57,9 +57,9 @@ em,i{font-style:normal}
     $(function() {
         $.post('__URL__/get_news_list',{s:5},function(data){
             console.log(data);
-            // if(status == 1) {
-            //     $(".right_content1").html(data.list);
-            // }
+            if(status == 1) {
+                $(".right_content1").html(data.list);
+            }
         });
     });
 </script>
