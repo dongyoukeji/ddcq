@@ -42,6 +42,7 @@ class IndexController extends BaseController {
         $map['status']=0;
         $map['column_id']=3;
     	$list = M('article')->field('id,title,descriptin,date')->where($map)->order('date desc')->limit($s)->select();
+    	$list['date']=date('Y-m-d',$list['date']);
     	$callback = $callback?$callback:'CALLBACK';
     	echo $callback."(".json_encode($list).")";
     }
