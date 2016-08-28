@@ -44,7 +44,10 @@ class IndexController extends BaseController {
     	$list = M('article')->field('id,title,descriptin,date')->where($map)->order('date desc')->limit($s)->select();
     	$list['date']=date('Y-m-d',$list['date']);
     	$callback = $callback?$callback:'CALLBACK';
-    	echo $callback."(".json_encode($list).")";
+    	$data['status']=1;
+    	$data['list']=$list;
+    	$data['count']=count($list);
+    	echo $callback."(".json_encode($data).")";
     }
     /**
      * [get_detals 获取公告详情]
