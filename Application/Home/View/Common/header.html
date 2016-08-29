@@ -17,8 +17,8 @@
             <img src="__IMAGES__/font.fw.png" class="font" />
             <img src="__IMAGES__/person.fw.png" class="person" />
             <ul class="nav">
-                <li class="active"><a href="{:U('index')}">官方首页</a></li>
-                <li><a href="#">新闻中心</a></li>
+                <li <eq name="Think.const.ACTION_NAME" value="index">class="active"</eq> ><a href="{:U('index')}">官方首页</a></li>
+                <li  <eq name="Think.const.ACTION_NAME" value="notice">class="active"</eq> <eq name="Think.const.ACTION_NAME" value="notice_list">class="active"</eq> ><a href="{:U('index/notice_list')}">新闻中心</a></li>
                 <li><a href="#">游戏介绍</a></li>
                 <li><a href="#">用户中心</a></li>
                 <li><a href="#">账号注册</a></li>
