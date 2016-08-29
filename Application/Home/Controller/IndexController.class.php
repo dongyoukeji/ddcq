@@ -42,18 +42,13 @@ class IndexController extends BaseController {
 
         $map['status']=0;
         $map['column_id']=3;
-<<<<<<< HEAD
-    	$list = M('article')->field('id,title,description,date')->where($map)->order('date desc')->limit($s)->select();
-    	$list['date']=date('Y-m-d',$list['date']);
-=======
 
     	$list = M('article')->field('id,title,date')->where($map)->order('date desc')->limit($s)->select();
 	    $this->list=$list;
 	    $data = $this->fetch('gonggao_list');
 	
->>>>>>> c5cd96059323ec81529bf06a23ad58b851b3c744
     	$callback = $callback?$callback:'CALLBACK';
-    	echo $callback."(".json_encode($list).")";
+    	echo $callback."(".json_encode($data).")";
     }
     /**
      * [get_detals 获取公告详情]
