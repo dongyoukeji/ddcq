@@ -33,21 +33,22 @@ class IndexController extends BaseController {
         $this->ajaxReturn(array('status'=>1,'list'=>$list));
     }
     /**
-     * [get_news_list 获取公告地址]
+     * [get_com_list 获取公告地址]
      * @param  integer $len      [description]
      * @param  string  $callback [description]
      * @return [type]            [description]
      */
     public function get_news_list($len=5,$callback=''){
+
         $map['status']=0;
         $map['column_id']=3;
-    	$list = M('article')->field('id,title,descriptin,date')->where($map)->order('date desc')->limit($s)->select();
-    	$list['date']=date('Y-m-d',$list['date']);
+
+    	$list = M('article')->field('id,title,date')->where($map)->order('date desc')->limit($s)->select();
+	    $this->list=$list;
+	    $data = $this->fetch('gonggao_list');
+	
     	$callback = $callback?$callback:'CALLBACK';
-    	$data['status']=1;
-    	$data['list']=$list;
-    	$data['count']=count($list);
-    	echo $callback."(".json_encode($data).")";
+    	echo $callback."(".json_encode($list).")";
     }
     /**
      * [get_detals 获取公告详情]
